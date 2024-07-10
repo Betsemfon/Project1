@@ -1,0 +1,87 @@
+/*Navbar*/
+
+nav {
+  font-family: Arial, sans-serif;
+  background-color:  #fff;
+  padding: 10px 0;
+}
+
+/* Remove default list styles */
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+/* Style individual list items */
+nav ul li {
+margin: 0 15px;
+}
+
+/* Style the links */
+nav ul li a {
+text-decoration: none;
+color: rgb(19, 18, 18);
+font-weight: bold;
+padding: 10px 15px;
+display: block;
+transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effects for the links */
+nav ul li a:hover {
+background-color:  #ebe4e4;
+color: #fff;
+border-radius: 5px;
+}
+
+/* Optional: Active link styling */
+nav ul li a.active {
+background-color: #575757;
+color: #fff;
+border-radius: 5px;
+}
+/* Style for the image container */
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+ 
+}
+
+
+
+/* index.css or App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background-color:  #fff; /* Dark background color */
+  color: #111112; /* Light text color */
+  text-align: center; /* Center align text */
+  padding: 20px 0; /* Top and bottom padding */
+  font-family: Arial, sans-serif; /* Font style */
+}
+
+footer p {
+  margin: 0; /* Remove default margins */
+  font-size: 14px; /* Font size */
+}
